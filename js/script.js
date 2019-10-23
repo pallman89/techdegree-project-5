@@ -8,7 +8,7 @@ function search_photo() {
             x[i].style.display="none"; 
         } 
         else { 
-            x[i].style.display="jpg";                  
+            x[i].style.display="block";                  
         } 
     } 
 } 
