@@ -1,0 +1,87 @@
+/* Starter CSS */
+/* ----------- */
+*{box-sizing: border-box;
+    }
+
+body {
+        margin: 0 auto;
+        
+    }
+
+
+    h1 {
+        display: flex;
+        justify-content: space-evenly;
+    }
+/*----------*/
+/* search input */
+/*----------*/
+
+.input {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    border: 1px solid gray;
+    width: 40%;
+    border-radius: 2px;
+    font-size: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    box-shadow: 1px 2px 3px black;
+}
+
+
+
+/* --------- */
+/* gallery container */
+/* --------- */
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    align-items: center;
+   }
+
+   .row {
+    padding: .5em;
+    margin: .5em;
+    
+
+   }
+
+
+
+
+
+
+
+
+
+/* Media Query */
+
+
+@media(min-width:768px){
+   
+    .container {
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: space-evenly;
+        
+       
+    }
+    
+    .row {
+        
+        padding: .5em;
+        margin: .5em;
+        
+    }
+
+}
